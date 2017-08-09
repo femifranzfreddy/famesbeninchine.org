@@ -1,0 +1,40 @@
+html, body{
+  height: 100%;
+}
+
+.jumbotron {
+  margin-top: 51px;
+  margin-bottom: 0px;
+}
+
+section {
+  min-height: 100%;
+  padding-top: 100px;
+}
+
+section#bureau {
+  background-color: #eee;
+}
+
+section#bureau p.caption {
+  text-align: center;
+  font-weight: bold;
+}
+
+div.margin-50 {
+  height: 50px;
+}
+
+.btn.btn-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+section#bureau .btn.btn-theme, section#objectifs .btn.btn-theme {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+section#contact {
+  min-height: inherit;
+}
