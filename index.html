@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen">
     <link rel="stylesheet" href="css/app.css">
     <title>FAMES BENIN CHINE</title>
   </head>
@@ -27,7 +28,7 @@
           </ul>
 
           <form class="navbar-form navbar-right">
-            <a href="/" class="btn btn-default">Futur étudiant/stagiaire en Chine</a>
+            <a href="https://goo.gl/forms/xT2RU0kaee5XDgU72" id="accueil" target="_blank" class="btn btn-default">Futur étudiant/stagiaire en Chine</a>
           </form>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -75,21 +76,17 @@
           La FAMES est composée d'amicales situées au niveau de différentes villes et provinces de la Chine.
         </p>
         <p class="lead text-center">Elle est dirigée au plus haut niveau par le Bureau Exécutif Fédéral qui se compose comme suit (2017-2018) : </p>
-        <div class="row">
-          <div class="col col-md-2 col-md-offset-5">
+
+        <div class="row" id="members">
+          <div class="col col-md-4">
             <img src="img/pr.png" alt="Photo du Président" class="img-responsive img-rounded">
             <p class="caption">Rahmane OUSMANE<br>Président</p>
           </div>
-        </div>
-        <div class="margin-50">
-
-        </div>
-        <div class="row">
-          <div class="col col-md-2 col-md-offset-3">
+          <div class="col col-md-4">
             <img src="img/pr.png" alt="Photo du Président" class="img-responsive img-rounded">
             <p class="caption">Moumin HOKPO<br>Secrétaire Général</p>
           </div>
-          <div class="col col-md-2 col-md-offset-2">
+          <div class="col col-md-4">
             <img src="img/pr.png" alt="Photo du Président" class="img-responsive img-rounded">
             <p class="caption">Abdel Akbar SANNI<br>Trésorier Général</p>
           </div>
@@ -101,13 +98,48 @@
     </section>
 
     <section id="contact">
-      <p class="lead text-center"> Êtes-vous sur le point de venir en Chine, poursuivre vos études ou faire un stage ? <br>
-      Si oui, <a href="/" class="btn btn-theme">Inscrivez-vous</a>
- afin que la FAMES organise votre accueil.</p>
-      <p class="lead text-center">
-        Pour besoin de renseignements, ou pour porter une information à la FAMES (aux étudiants en Chine), <br> Veuillez nous contacter par email : bureau@famesbeninchine.org
-      </p>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <div class="btn-group btn-group-justified">
+              <div class="btn-group" role="group">
+                <a href="tel:+8615834101219" class="btn btn-default btn-social">
+                  <i class="fa fa-phone"></i>
+                </a>
+              </div>
+              <div class="btn-group" role="group">
+                <a href="mailto:bureau@famesbeninchine.org" class="btn btn-default btn-social">
+                  <i class="fa fa-envelope-o"></i>
+                </a>
+              </div>
+              <div class="btn-group" role="group">
+                <a href="https://www.facebook.com/famesbeninchine/" class="btn btn-default btn-social">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </div>
+            </div>
+            <form class="form" method="post" action="https://formspree.io/bureau@famesbeninchine.org">
+              <div class="form-group">
+                <input type="email" class="form-control" name="_replyto" placeholder="Votre adresse e-mail" required = "true">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" placeholder="Vos nom et prenom" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="8" placeholder="Votre message" required>
+                </textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-block btn-theme">Envoyer</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
+    <div class="footer">
+      <p class="text-center"> Made with &hearts; by <a href="mailto:ousmanedev@gmail.com">JamilCode</a></p>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

@@ -1,5 +1,5 @@
 html, body{
-  height: 100%;
+  min-height: 100%;
 }
 
 .jumbotron {
@@ -7,7 +7,7 @@ html, body{
   margin-bottom: 0px;
 }
 
-section#bureau, section#objectifs {
+section {
   min-height: 100%;
   padding-top: 100px;
 }
@@ -16,7 +16,17 @@ section#bureau {
   background-color: #eee;
 }
 
+section#bureau div#members {
+  margin-top: 50px;
+}
+
+section#bureau img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 section#bureau p.caption {
+  margin-top: 20px;
   text-align: center;
   font-weight: bold;
 }
@@ -35,7 +45,26 @@ section#bureau .btn.btn-theme, section#objectifs .btn.btn-theme {
   margin-bottom: 100px;
 }
 
-section#contact {
-  padding-top: 100px;
-  padding-bottom: 100px;
+section#contact form {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.btn.btn-social{
+  background-color: transparent;
+  color: #000;
+}
+.btn.btn-social:hover, .btn.btn-social:focus{
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+div.footer {
+  background-color: #000;
+  color: #fff;
+}
+
+div.footer a {
+  color: #fff;
 }
