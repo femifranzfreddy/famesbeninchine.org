@@ -1,15 +1,11 @@
-// $(document).on('click', 'a:not(.model-trigger)', function(event){
-//   event.preventDefault();
-//
-//   $('html, body').animate({
-//     scrollTop: $( $.attr(this, 'href') ).offset().top
-//   }, 500);
-// });
+$(document).on('click', 'a', function(event){
+  if($(this).attr('class') == 'google-doc') {
+    return;
+  }
 
-// $('a:not(.model-trigger)').click(function(e) {
-//   event.preventDefault();
-//
-//   $('html, body').animate({
-//     scrollTop: $( $.attr(this, 'href') ).offset().top
-//   }, 500);
-// })
+  event.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $( $.attr(this, 'href') ).offset().top
+  }, 500);
+});
