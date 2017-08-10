@@ -54,7 +54,7 @@ div.margin-50 {
   color: #fff;
 }
 
-section#bureau .btn.btn-theme, section#objectifs .btn.btn-theme {
+section#fames .btn.btn-theme, section#bureau .btn.btn-theme, section#objectifs .btn.btn-theme {
   margin-top: 100px;
   margin-bottom: 100px;
 }
