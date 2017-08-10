@@ -9,6 +9,7 @@ html,body {
 .jumbotron {
   margin-top: 51px;
   margin-bottom: 0px;
+  background-color: #F8E71C;
 }
 
 section {
@@ -16,8 +17,17 @@ section {
   padding-top: 100px;
 }
 
-section#bureau {
+section#objectifs {
   background-color: #eee;
+}
+
+section#objectifs .well {
+  background-color: #fff;
+  min-height: 300px;
+}
+
+section#bureau {
+  background-color: #F8E71C;
 }
 
 section#bureau div#members {
