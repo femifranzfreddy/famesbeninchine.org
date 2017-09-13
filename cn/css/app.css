@@ -1,0 +1,93 @@
+html,body {
+  height: 100%;
+  min-height: 100%;
+}
+/*body{
+  min-height: 100%;
+}*/
+
+.jumbotron {
+  margin-top: 51px;
+  margin-bottom: 0px;
+  background-color: #F8E71C;
+}
+
+section {
+  min-height: 100%;
+  padding-top: 100px;
+}
+
+section#objectifs {
+  background-color: #eee;
+}
+
+section#objectifs .well {
+  background-color: #fff;
+  min-height: 300px;
+}
+
+section#bureau {
+  background-color: #F8E71C;
+}
+
+section#bureau div#members {
+  margin-top: 50px;
+}
+
+section#bureau img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#bureau p.caption {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div.margin-50 {
+  height: 50px;
+}
+
+.btn.btn-theme {
+  background-color: #000;
+  color: #fff;
+}
+
+section#fames .btn.btn-theme, section#bureau .btn.btn-theme, section#objectifs .btn.btn-theme {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/*section#bureau img {
+  height:
+}*/
+
+section#contact form {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.btn.btn-social{
+  background-color: transparent;
+  color: #000;
+}
+.btn.btn-social:hover, .btn.btn-social:focus{
+  background-color: #000;
+  color: #fff;
+  border-color: #fff;
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #000;
+  clear: both;
+  position: relative;
+  height: 3em;
+  margin-top: -3em;
+}
+
+footer a {
+  color: #fff;
+}
