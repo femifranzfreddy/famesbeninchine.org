@@ -1,5 +1,5 @@
 $(document).on('click', 'a', function(event){
-  if($(this).attr('class') == 'google-doc') {
+  if($(this).attr('class') == 'locale') {
     return;
   }
 
