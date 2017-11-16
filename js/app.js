@@ -1,5 +1,5 @@
 $(document).on('click', 'a', function(event){
-  if($(this).attr('class') == 'locale') {
+  if($(this).attr('class') == 'skip-scroll') {
     return;
   }
 

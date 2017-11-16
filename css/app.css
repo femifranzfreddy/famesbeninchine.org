@@ -68,6 +68,20 @@ section#contact form {
   margin-bottom: 100px;
 }
 
+section.article {
+  margin-bottom: 100px;
+}
+
+section.article h3 {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+section.article p:not(.lead) {
+  font-size: 15px;
+}
+
+
 .btn.btn-social{
   background-color: transparent;
   color: #000;
