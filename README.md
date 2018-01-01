@@ -1,4 +1,4 @@
-# famesbeninchine
+# FAMES BENIN CHINE
 Site web officiel de la FAMES BENIN CHINE
 
 # Notice
