@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  position: relative;
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100%;
+}
+
+div.jumbotron {
+  margin-top: 51px;
+  margin-bottom: 0px;
+  background-color: #F8E71C;
+}
+
+div.content-box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+img.story-person {
+  max-height: 150px;
+}
+
+footer.footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #000;
+  height: 3em;
+  margin-top: -3em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  a {
+    color: #fff;
+  }
+}
