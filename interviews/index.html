@@ -4,27 +4,17 @@ title: FAMES INTERVIEWS
 jumbotronName: FAMES INTERVIEWS
 jumbotronLead: Les histoires inspirantes des béninois en Chine
 ---
-{% for story in site.data.stories %}
-  <div class="content-box">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="media">
-            <div class="media-left media-top">
-              <a href="#">
-                <img class="media-object story-person" src="{{ story.img_url }}" alt="Image de l'interview">
-              </a>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">{{ story.title }}</h4>
-              <p class="lead">
-                {{ story.lead }}
-              </p>
-              <a href="{{ story.url }}">Lire plus</a>
-            </div>
+<div class="content-box">
+  <div class="card-deck">
+      {% for story in site.data.stories %}
+        <div class="card" style="max-width: 18rem;">
+          <img class="card-img-top" src="{{ story.img_url }}" alt="Photo">
+          <div class="card-body">
+            <h5 class="card-title">{{ story.title }}</h5>
+            <p class="card-text">{{ story.lead }}</p>
+            <a href="{{ story.url }}" class="btn btn-primary">Lire</a>
           </div>
         </div>
-      </div>
-    </div>
+      {% endfor %}
   </div>
-{% endfor %}
+</div>
