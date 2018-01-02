@@ -1,0 +1,20 @@
+---
+layout: default
+title: FAMES DOCS
+jumbotronName: FAMES DOCS
+jumbotronLead: Des documents scientifiques rédigés par les membres de la communauté
+---
+<div class="content-box">
+    {% for doc in site.data.docs %}
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ doc.title }}</h5>
+        <h6 class="card-subtitle mb-2 text-bold">{{ doc.author }}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">{{ doc.field }}, {{ doc.level }}</h6>
+        <h6 class="card-subtitle mb-2 text-muted">Document en {{ doc.language }}</h6>
+        <p class="card-text">{{ doc.description }}</p>
+        <a href="{{doc.download_url}}" class="btn btn-primary">Télécharger</a>
+      </div>
+    </div>
+    {% endfor %}
+</div>
