@@ -8,3 +8,14 @@
   download_url: "https://github.com/famesbeninchine/docs/raw/master/1/bot_model_in_highway_construction_management.pdf"
   description: "L'utilisation du système Build- Operate- Transfer (BOT) pour la gestion des projets nécessitant de grands financements en république du Bénin.
   La phase Build consiste à faire réaliser le projet par des opérateurs privés. La phase Oprerate est celle pendant laquelle, l'opérateur privé exploite durant une période prédéfini avec l'état, ce qu'il a réalisé et récupére son investissement et les intérêts qui lui sont dûs. La phase Transfert est celle de réception et de prise de contrôle par le gouvernement. Dans ce document, j'ai pris comme cas pratique, l'exemple de la Philippine."
+
+- id: 2
+  title: "RECOMMENDATION ENGINE FOR SQL QUERIES (TALK)"
+  language: anglais
+  author: "Rahmane Ousmane"
+  field: "Génie logiciel"
+  option: "Intelligence artificielle"
+  level: "Master"
+  download_url: "https://github.com/famesbeninchine/docs/raw/master/2/recommendation_engine_for_sql_queries.pdf"
+  description: "L'optimisation du temps d'exécution des requêtes SQL a lieu à 2 niveaux : Le query optimizer de la base de données, et la qualité des requêtes en question. Nous nous axons sur la qualité des requêtes.
+  A cet effet, il s'agit pour nous, de concevoir un système basé sur le machine learning, qui pourra sur la base de requêtes SQL fournies en entrée, retourner des requêtes de qualité meilleure."
