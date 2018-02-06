@@ -19,3 +19,23 @@
   download_url: "https://github.com/famesbeninchine/docs/raw/master/2/recommendation_engine_for_sql_queries.pdf"
   description: "L'optimisation du temps d'exécution des requêtes SQL a lieu à 2 niveaux : Le query optimizer de la base de données, et la qualité des requêtes en question. Nous nous axons sur la qualité des requêtes.
   A cet effet, il s'agit pour nous, de concevoir un système basé sur le machine learning, qui pourra sur la base de requêtes SQL fournies en entrée, retourner des requêtes de qualité meilleure."
+
+- id: 3
+  title: "Soil respiration, glomalin content, and enzymatic activity response to straw application in a wheat-maize rotation system"
+  language: anglais
+  author: "Albert A. Houssou"
+  field: "Sciences du sol"
+  option: "-"
+  level: "PhD "
+  download_url: "https://github.com/famesbeninchine/docs/raw/master/3/soil_respiration.pdf"
+  description: "This is the first study to evaluate the role of soil enzyme activity and glomalin content in the response of soil respiration to straw application at different growth stages in a wheat-maize rotation system."
+
+- id: 4
+  title: "Effect of conservation tillage on soil respiration rate and water content under wheat/maize system in North China Plain"
+  language: anglais
+  author: "Albert A. Houssou"
+  field: "Sciences du sol"
+  option: "-"
+  level: "PhD "
+  download_url: "https://github.com/famesbeninchine/docs/raw/master/4/effect_of_conservation_tillage.pdf"
+  description: "Soil moisture can be improved by agricultural management practices such as utilization of crop residues and no-tillage"
